@@ -9,84 +9,150 @@
 </head>
 <body>
     <header class="header">
-    <div class="contenedor">
-        <a href=""><img src="*/img/logo.png" class="logo"></a>
-        <span class="icon-menu" id="btn-menu"></span>
-        <nav class="nav" id="nav">
-        <ul class="menu">
-                <li class="menu__item"><a  href="#seccion1" class="menu__link">Inicio</a></li>
-                <li class="menu__item"><a href="#seccion2" class="menu__link">Nosotros</a></li>
-                <li class="menu__item"><a href="#seccion3" class="menu__link">Novedades</a></li>
-                <li class="menu__item"><a href="#seccion4" class="menu__link">Contacto</a></li>
-        </ul>
-        </nav>
-    </div>
+        <div class="contenedor">
+            <a href=""><img src="img/logo.png" class="logo"></a>
+            <span class="icon-menu" id="btn-menu"></span>
+            <nav class="nav" id="nav">
+                <ul class="menu">
+                    <li class="menu__item"><a href="#seccion1" class="menu__link">Inicio</a></li>
+                    <li class="menu__item"><a href="#seccion2" class="menu__link">Nosotros</a></li>
+                    <li class="menu__item"><a href="#seccion3" class="menu__link">Novedades</a></li>
+                    <li class="menu__item"><a href="#seccion4" class="menu__link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-	<div>
+    <div>
         <img src="img/Descarga.jpg" alt="">
     </div>
-    <section class="parrafo" id="seccion1">
-    
-    <div class="contenedor">
-        <article class="parrafo__columna">
-        <h1>Inicio</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </article>
-        </div>
+    <section id="seccion1">
+        
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <img src="img/imagen1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="img/imagen2.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="img/imagen3.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
     </section>
-    
-    <section class="parrafo" id="seccion2">    
+
+    <section class="parrafo" id="seccion2">
         <div class="contenedor">
-        <article class="parrafo__columna">
-        <h1>¿Quienes somos?</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <h1>El Equipo</h1>
-            <p></p>
-        </article>
+            <article class="parrafo__columna">
+                <br /><br />
+                      <div class="parrafo_fila">
+                          <h1>¿Quienes somos?</h1>
+                          <p>
+                              Ideas Textiles es una marca dedicada desde hace décadas a la fabricación de telas de extrema calidad. Desde siempre ha contado con la mayor variedad y mejor relación calidad-precio del mercado.<br />
+                              Utilizando los insumos más destacados del mercado y procesos de fabricación detallados, Ideas Textiles entrega miles de toneladas de telas al año a diversos clientes en el Perú y el Mundo.<br />
+                              Ideas Textiles es la empresa líder del Perú y una de las más destacadas de Latinoamérica, muestra de ello es el que diversos diseñadores y marcas de la región confían en nuestro trabajo para producir prendas de calidad.
+                          </p>
+                      </div>
+                      <div class="parrafo_fila">
+                          <h1>El Equipo</h1>
+                          <p>
+                              Desde diseñadores hasta ejecutivos de ventas. Ideas Textiles <br />cuenta con un equipo multidisciplinario especialista en la industria. <br />
+                              El equipo no sólo tiene conocimiento en la industria, cuenta <br />también con diversas experiencias que permiten que nuestros clientes se sientan siempre satisfechos.
+                          </p>
+                    </div>
+
+</article>
         </div>
     </section>
-    
-    <section class="parrafo" id="seccion3">
-    
-    <div class="contenedor">
-        <article class="parrafo__columna">
-        <h1>Novedades</h1>
-            <div class="Newsletter">
-                <h1 id="NewsTitle">Suscribete</h1>
-                <p>Suscribete a nuestro plan de seguimiento para que recibas todas las novedades del equipo</p>
+
+    <section id="seccion3" class="parrafo">
+        <div class="contenedor">
+            <div class="parrafo__columna">
+                <br /><br />
+                <h1>Novedades</h1>
+                <div class="slideshow-novedades">
+
+                    <div class="mySlides2 fade">
+                        <img src="img/tela1.jpg" style="width:100%">
+                        <div class="text">Tela azul, acabado polar</div>
+                    </div>
+
+                    <div class="mySlides2 fade">
+                        <img src="img/tela2.jpg" style="width:100%">
+                        <div class="text">Tela amarilla, acabado satinado</div>
+                    </div>
+
+                    <div class="mySlides2 fade">
+                        <img src="img/tela3.jpg" style="width:100%">
+                        <div class="text">Tela roja, acabado aterciopelado</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+                </div>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot2" onclick="currentSlide2(1)"></span>
+                    <span class="dot2" onclick="currentSlide2(2)"></span>
+                    <span class="dot2" onclick="currentSlide2(3)"></span>
+                </div>
 
             </div>
-        
-        </article>
-        
-        </div>
-    </section>
-    
+            </div>
+</section>
+
     <section class="parrafo" id="seccion4">
-    
-    <div class="contenedor">
-        <article class="parrafo__columna">
-        <h1>Contacto</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        
-        
-        </article>
-        
+
+        <div class="contenedor">
+            <article class="parrafo__columna">
+                <br /><br />
+                <div class="Contactos">
+                    <h1>Oficina</h1>
+                    <p>
+                        AV. Primero de Mayo 441 -
+                        El Agustino. Lima-Perú <br />
+
+                        <b>TELÉFONO:</b>
+                        +51 612 8888
+                    </p>
+                </div>
+                <div class="Contactos">
+                    <h1>Planta</h1>
+                    <p>
+                        Jr. Sebastian Barranca 1427
+                        Gamarra - La Victoria. Lima-Perú<br />
+
+                        <b>TELÉFONO:</b>
+                        +51 969 967 752
+                    </p>
+                </div>
+                <div class="Contactos">
+                    <h1>Faze Trading</h1>
+                    <p>
+                        Jr. Giribaldi 772
+                        Gamarra - La Victoria Lima-Perú <br />
+
+                        <b>TELÉFONO:</b>
+                        +01 4742843
+                    </p>
+                </div>
+
+            </article>
+
         </div>
     </section>
-    
+
 
 </body>
      
