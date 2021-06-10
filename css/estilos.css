@@ -3,12 +3,12 @@
     box-sizing: border-box;
 }
 html{
-	scroll-behavior: smooth;/*desplazamiento*/
+	scroll-behavior: smooth;
 }
 body{ 
 	font-family: sans-serif;
 }
-.logo{/*tamaño de la imagen*/
+.logo{
     width: 90px;
     height: 50px;
 }
@@ -21,15 +21,15 @@ body{
     width: 100%;
     margin: auto;
 }
-.header{
-    background-color: rgb(0, 0, 0);
-    border-bottom: 1px solid rgb(255, 0, 0) ;
+.header {
+    background-color: rgb(11 11 11);
+    border-bottom: 1px solid rgb(255, 0, 0);
     position: relative;
     width: 100%;
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    z-index:99;
+    z-index: 99;
 }
 .header .contenedor{
     display: flex;
@@ -39,7 +39,7 @@ body{
     margin: 5px;
     color: #fff;
 }
-.icon-menu{/*Botoncito*/
+.icon-menu{
     display: block;
     width: 40px;
     font-size: 30px;
@@ -67,15 +67,14 @@ body{
     background-color: rgb(0, 0, 0);
     color: #fff ;
     height: 60px;
-    /* border-bottom: 1px solid skyblue ; */ /*Bordes*/
     font-size: 20px;
 	  text-decoration: none;
 }
-.menu__link:hover{/*efecto hover de los links*/
+.menu__link:hover{
     background:#037e8c  ;
     color: #fff;
 }
-.muestrate{/*Clase que se activa al clickear*/
+.muestrate{
     left: 0;
 }
 /**/
@@ -245,3 +244,8 @@ section{
         opacity: 1
     }
 }
+
+
+
+
+
