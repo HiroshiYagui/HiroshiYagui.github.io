@@ -71,8 +71,8 @@ body{
 	  text-decoration: none;
 }
 .menu__link:hover{
-    background:#037e8c  ;
-    color: #fff;
+    background:#1b1b1b  ;
+    color: #ff6500;
 }
 .muestrate{
     left: 0;
@@ -180,6 +180,7 @@ section{
 
     .prev:hover, .next:hover {
         background-color: rgba(0,0,0,0.8);
+        color: #ff6500;
     }
 
 .text {
@@ -214,7 +215,7 @@ section{
 }
 
     .active, .dot:hover {
-        background-color: #717171;
+        background-color: #ff6500;
     }
 
 
